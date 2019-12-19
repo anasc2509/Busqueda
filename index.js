@@ -24,3 +24,9 @@ function salir(){
     window.close();
 }
 
+
+function reinicio(){
+    document.getElementById("color").value = "";
+    document.getElementById("descripcion").value = "";
+}
+
